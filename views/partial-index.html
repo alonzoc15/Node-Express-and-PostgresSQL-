@@ -1,0 +1,9 @@
+<section class="section">
+    <ul class="level">
+        ${trackData.map(track => `
+        <li style="width: 100%">
+            <a href='./${track.id}'>${track.name}</a>
+        </li>
+        `).join('')}
+    </ul>
+</section>
